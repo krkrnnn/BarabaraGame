@@ -14,6 +14,10 @@
 		94380CFE1C6AB3B5009ECEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94380CFC1C6AB3B5009ECEEA /* LaunchScreen.storyboard */; };
 		94380D091C6AB3B5009ECEEA /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94380D081C6AB3B5009ECEEA /* BarabaraGameTests.swift */; };
 		94380D141C6AB3B5009ECEEA /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94380D131C6AB3B5009ECEEA /* BarabaraGameUITests.swift */; };
+		947CCECD1C6AB69600430CAC /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 947CCECB1C6AB69600430CAC /* bar.png */; };
+		947CCECE1C6AB69600430CAC /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 947CCECC1C6AB69600430CAC /* tail.png */; };
+		947CCED01C6AB93200430CAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CCECF1C6AB93200430CAC /* GameViewController.swift */; };
+		947CCED21C6AB95300430CAC /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CCED11C6AB95300430CAC /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		94380D0F1C6AB3B5009ECEEA /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94380D131C6AB3B5009ECEEA /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		94380D151C6AB3B5009ECEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947CCECB1C6AB69600430CAC /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		947CCECC1C6AB69600430CAC /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		947CCECF1C6AB93200430CAC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		947CCED11C6AB95300430CAC /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		94380CE71C6AB3B5009ECEEA = {
 			isa = PBXGroup;
 			children = (
+				947CCED11C6AB95300430CAC /* RankingViewController.swift */,
+				947CCECF1C6AB93200430CAC /* GameViewController.swift */,
 				94380CF21C6AB3B5009ECEEA /* BarabaraGame */,
 				94380D071C6AB3B5009ECEEA /* BarabaraGameTests */,
 				94380D121C6AB3B5009ECEEA /* BarabaraGameUITests */,
@@ -97,6 +107,8 @@
 		94380CF21C6AB3B5009ECEEA /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				947CCECB1C6AB69600430CAC /* bar.png */,
+				947CCECC1C6AB69600430CAC /* tail.png */,
 				94380CF31C6AB3B5009ECEEA /* AppDelegate.swift */,
 				94380CF51C6AB3B5009ECEEA /* ViewController.swift */,
 				94380CF71C6AB3B5009ECEEA /* Main.storyboard */,
@@ -230,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94380CFE1C6AB3B5009ECEEA /* LaunchScreen.storyboard in Resources */,
+				947CCECE1C6AB69600430CAC /* tail.png in Resources */,
 				94380CFB1C6AB3B5009ECEEA /* Assets.xcassets in Resources */,
 				94380CF91C6AB3B5009ECEEA /* Main.storyboard in Resources */,
+				947CCECD1C6AB69600430CAC /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94380CF61C6AB3B5009ECEEA /* ViewController.swift in Sources */,
+				947CCED01C6AB93200430CAC /* GameViewController.swift in Sources */,
 				94380CF41C6AB3B5009ECEEA /* AppDelegate.swift in Sources */,
+				947CCED21C6AB95300430CAC /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				94380D1A1C6AB3B5009ECEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94380D1B1C6AB3B5009ECEEA /* Build configuration list for PBXNativeTarget "BarabaraGameTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				94380D1D1C6AB3B5009ECEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94380D1E1C6AB3B5009ECEEA /* Build configuration list for PBXNativeTarget "BarabaraGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				94380D201C6AB3B5009ECEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
